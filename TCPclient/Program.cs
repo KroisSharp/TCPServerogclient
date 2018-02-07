@@ -4,16 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TCPEchoServer
+namespace TCPclient
 {
     class Program
     {
         private const int PORT = 9000;
+
         static void Main(string[] args)
         {
-            TcpServer Server = new TcpServer(PORT);
-            Console.WriteLine("im Server");
-            Server.Start();
+
+
+            Console.WriteLine("jeg er Client");
+            TCPmyClient client = new TCPmyClient(PORT);
+            client.Start();
+
 
             Console.ReadLine();
         }

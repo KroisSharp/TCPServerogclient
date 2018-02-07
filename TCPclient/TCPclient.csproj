@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0DEB43D8-800D-44B1-BA7D-2D7E4050F04E}</ProjectGuid>
+    <ProjectGuid>{8032EBB0-2FAF-4173-A796-1ADC65859C6E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TCPEchoServer</RootNamespace>
-    <AssemblyName>TCPEchoServer</AssemblyName>
+    <RootNamespace>TCPclient</RootNamespace>
+    <AssemblyName>TCPclient</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TcpServer.cs" />
+    <Compile Include="TCPmyClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
